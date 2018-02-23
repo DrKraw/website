@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/main.js"></script>
+
+    <title>Donal Lane</title>
+  </head>
+  <body>
+    <!-- Header showcase  -->
+    <header id="showcase" class="grid">
+      <div class="bg-image"></div>
+      <div class="content-wrap">
+        <h1>Donal Lane</h1>
+        <h3>Professional Profile</h3>
+        <a id="email-link1" href="mailto:lanedonal5@gmail.com">Email: lanedonal5@gmail.com</a>
+        <br>
+        <a id="cv-link" href="donallaneCV.pdf" download="donallane_cv.PDF">Download His CV Here!</a>
+        <br>
+        <a id="tel-link" href="Tel: 087 746 0052">Tel: 087 746 0052</a>
+        <div class="nav3" style="height:100px;">
+          <span class="icons"><a href="https://www.github.com/laner5/"><img src="images/github3.png"></a></span>
+          <span class="icons"><a href="https://www.linkedin.com/in/donallane/" ><img src="images/linkedin3.png"></a></span>
+          <span class="icons"><a href="https://mail.google.com"><img src="images/google3.png"></a></span>
+          <span class="icons"><a href="https://facebook.com"><img src="images/fb3.png"></a></span>
+        </div>
+        <p>Donal is a professional web and software developer with one year of experience in the industry.
+           He is seeking an opportunity to join a new team as a Front-end/Full Stack Developer while continuing to
+           upskill in his spare time. Donal's main areas of focus are Python, Java and JavaScript. Download his CV in PDF with the link above!</p>
+      </div>
+    </header>
+
+    <!-- Main area -->
+    <main id="main">
+      <!-- THis is section A-->
+      <section id="section-a" class="grid">
+        <div class="content-wrap">
+                 <h2 class="content-tile">Development Experience & Education</h2>
+                 <div class="content-text">
+                 <p> Donal has been coding for about three years now. He started out programming
+               in Java, HTML and CSS.
+                      In 2016 Donal attended Institute Technology Blanchardstown
+                      for one academic year completing a Postgraduate in Science and Computing where Donal achieved
+                      a first class honours grade. Donal has just under one year of experience as a Junior Web & Software
+                      Developer. He has commercial experience using the V Software Model, and using Programming
+                      languages such as Python(Django), Node.js(Express.js) and SQL(PostgreSQL).</p>
+
+                      <h1>Main Skills</h1>
+                         <p id="skill-list">Python Scripting (Django)</p>
+                         <p id="skill-list">JavaScript (Node/Express/jQuery and Vanilla)</p>
+                         <p id="skill-list">Unit Testing with Mocha and Chai</p>
+                         <p id="skill-list">SQL, HTML5 & CSS3</p>
+                         <p id="skill-list">Java Programming</p>
+                         <p id="skill-list">Relational Databases (PostgreSQL)</p>
+                </div>
+        </div>
+      </section>
+
+      <!-- Section C -->
+      <section id="section-c" class="grid">
+        <div class="bg-image2"></div>
+        <div class="content-wrap">
+          <h2 class="content-tile">Current Projects & Studies</h2>
+            <p>
+                At the moment Donal is developing an understanding for frameworks
+                like React and Angular using sites like Treehouse and Udemy. It is clear that these are technologies
+                at the forefront of Frontend Development. Donal's main goal is to become
+                proficient at one or both of these technologies. In September 2018, Donal
+                will attend CCT Dublin and Complete a Diploma in Advanced Java Programming over 11 evenings.
+            </p>
+            <p>
+                Donal is working on side projects of his own. In College Donal developed an Android
+                GPS tracker application for Epilepsy Seizure Management. Donal has a repository for this
+                on his Gihub Profile titled <i>"Seizure Track"</i>. The App is a work in progress and is not yet ready
+                for deployment. Donal is also working on building a Rest API for Epilepsy Management.
+           </p>
+
+        </div>
+      </section>
+
+      <section id="section-d" class="grid">
+        <div class="content-wrap">
+          <h1 style="color:#333;" class="content-tile">Contact Donal</h1>
+          <p style="color:#333;"><i>"Check out Donal's Github and LinkedIn Profile's via the links below.
+            Donal is always available. Email is his preferable method of contact.
+            Feel free to drop him a line!"<i></p>
+
+          <a id="email-link2" href="mailto:lanedonal5@gmail.com">Email: lanedonal5@gmail.com</a>
+          <br>
+          <a id="tel-link2" href="Tel: 087 746 0052">Tel: 087 746 0052</a>
+          <br><br>
+        </div>
+        <br><br>
+      </section>
+
+    </main>
+    <!--Footer -->
+    <footer>
+      <span class="back-to-top"><a href="index.html"><img src="images/back-to-top.png"></a></span>
+      <p>Donal Lane 2018</p>
+        <span class="icons"><a href="http://www.github.com/laner5/"><img src="images/github3.png"></a></span>
+        <span class="icons"><a href="https://www.linkedin.com/in/donallane/" ><img src="images/linkedin3.png"></a></span>
+        <span class="icons"><a href="https://google.com"><img src="images/google3.png"></a></span>
+        <span class="icons"><a href="https://facebook.com"><img src="images/fb3.png"></a></span>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('h1', {
+        duration: 1500,
+        origin: 'top'
+      });
+
+      sr.reveal('.icons', {
+        duration: 3500,
+        origin: 'left'
+      });
+
+      sr.reveal('#email-link1', {
+        duration: 1000,
+        origin: 'bottom'
+      });
+
+      sr.reveal('#cv-link', {
+        duration: 1000,
+        origin: 'bottom'
+      });
+
+      sr.reveal('#tel-link', {
+        duration: 1000,
+        origin: 'bottom'
+      });
+
+      sr.reveal('p', {
+        duration: 1000,
+        origin: 'bottom'
+      });
+
+      sr.reveal('h2', {
+        duration: 1000,
+        origin: 'top'
+      });
+
+      sr.reveal('h3', {
+        duration: 1000,
+        origin: 'top'
+      });
+
+      sr.reveal('.back-to-top', {
+        duration: 1000,
+        origin: 'top'
+      });
+
+      sr.reveal('.email-link2', {
+        duration: 1000,
+        origin: 'bottom'
+      });
+
+      sr.reveal('.tel-link2', {
+        duration: 1000,
+        origin: 'bottom'
+      });
+
+    </script>
+
+    <script>
+    $('.icons' ).hover(makeBigger, returnToOriginalSize);
+
+        function makeBigger() {
+          $(this).css({height: '+=3%', width: '+=3%'});
+        }
+        function returnToOriginalSize() {
+          $(this).css({height: "", width: ""});
+        }
+    </script>
+  </body>
+</html>

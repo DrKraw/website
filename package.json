@@ -1,0 +1,16 @@
+{
+  "name": "donalonlinecv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "donallane",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.15.1",
+    "scrollreveal": "^3.3.6"
+  }
+}
