@@ -1,5 +1,7 @@
 var express = require('express');
 var app = express();
+// var Intercom = require('intercom-client');
+// var client = new Intercom.Client({ token: 'dG9rOmYzNzIxYTczXzk4NDVfNDdjZV9hMjA1XzFlY2M4ODY0NjU0NjoxOjA=' });
 
 // set port
 var port = process.env.PORT || 8080

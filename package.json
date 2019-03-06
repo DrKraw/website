@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
-    "nodemon": "^1.15.1",
+    "intercom-client": "^2.10.4",
+    "nodemon": "^1.18.10",
     "scrollreveal": "^3.3.6"
   }
 }
